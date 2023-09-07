@@ -36,3 +36,7 @@ function getResultDescription (phrase) {
   }
   return `${phrase} is not a palindrome.`
 }
+
+function reversedphrase () {
+  getResultDescription(phrase.reverse())
+}
